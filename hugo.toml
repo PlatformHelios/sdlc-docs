@@ -1,0 +1,38 @@
+baseURL = "https://platformhelios.github.io/sdlc-docs/"
+title = "Engineering Platform & SDLC"
+locale = "en-us"
+enableGitInfo = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[menu]
+  [[menu.main]]
+    name = "Docs"
+    pageRef = "/docs"
+    weight = 1
+  [[menu.main]]
+    name = "Search"
+    weight = 2
+    [menu.main.params]
+      type = "search"
+
+[params]
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+  [params.footer]
+    displayCopyright = false
+    displayPoweredBy = false
+  [params.editURL]
+    enable = true
+    base = "https://github.com/PlatformHelios/sdlc-docs/edit/main/content"
+  [params.page]
+    width = "wide"
