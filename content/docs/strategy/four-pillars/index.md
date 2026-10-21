@@ -7,6 +7,8 @@ weight: 2
 
 > **Every production system should stand on all four pillars. If one is missing, the whole structure is at risk.**
 
+![The Four Pillars of IT Operations: Secured, Monitored, Documented and Recoverable, each with its guiding question and key practices](four-pillars.png)
+
 {{< cards cols="4" >}}
   {{< card link="#1-secured" title="01 · Secured" icon="shield-check" subtitle="Who can touch it, and can we prove what they did?" >}}
   {{< card link="#2-monitored" title="02 · Monitored" icon="chart-bar" subtitle="Is it healthy right now, and how do we know?" >}}
