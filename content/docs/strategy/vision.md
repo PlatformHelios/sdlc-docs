@@ -59,6 +59,10 @@ So the strategy has two tracks:
 9. **Platform as a product.** Development teams are our customers. We measure adoption and satisfaction, not just delivery.
 10. **Decide on outcomes, then tools.** We choose tools against the capabilities we need, not the other way around.
 
+{{< callout type="info" >}}
+  Underneath these principles, every production system must stand on **[the four pillars of IT operations](../four-pillars/)**: Secured, Monitored, Documented and Recoverable.
+{{< /callout >}}
+
 ## How we'll measure success
 
 | Outcome | Measures |
